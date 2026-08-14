@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@config": ["./src/config/index.js"],
+      "@config/*": ["./src/config/*"],
+      "@auth": ["./src/auth/index.js"],
+      "@auth/*": ["./src/auth/*"],
+      "@i18n": ["./src/i18n/index.js"],
+      "@styles/*": ["./src/styles/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@features/*": ["./src/features/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@components/*": ["./src/components/*"],
+      "@api/*": ["./src/api/*"],
+      "@query/*": ["./src/query/*"]
+    }
+  },
+  "include": ["src"]
+}

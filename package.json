@@ -1,5 +1,5 @@
 {
-  "name": "mia-reactweb-base",
+  "name": "mia-react-web-base",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -16,10 +16,13 @@
     "dayjs": "^1.11.21",
     "i18next": "^26.3.6",
     "lucide-react": "^1.28.0",
+    "oidc-client-ts": "^3.5.0",
+    "prop-types": "^15.8.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-hook-form": "^7.84.0",
     "react-i18next": "^17.0.11",
+    "react-oidc-context": "^3.3.1",
     "react-phone-number-input": "^3.4.17",
     "react-router-dom": "^7.18.2",
     "sonner": "^2.0.7",
@@ -28,6 +31,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.3",
     "@testing-library/jest-dom": "^7.0.0",
     "@testing-library/react": "^16.3.2",
     "@types/react": "^19.2.17",
@@ -41,6 +45,7 @@
     "globals": "^17.7.0",
     "jsdom": "^30.0.1",
     "prettier": "^3.9.6",
+    "tailwindcss": "^4.3.3",
     "vite": "^8.2.0",
     "vitest": "^4.1.10"
   }

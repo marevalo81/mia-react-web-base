@@ -1,0 +1,49 @@
+{
+  "common": {
+    "appName": "MIA React Web Base",
+    "home": "Inicio",
+    "example": "Ejemplo",
+    "logout": "Cerrar sesión",
+    "language": "Idioma",
+    "changeLanguage": "Cambiar idioma a {{language}}"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "example": "Example"
+  },
+  "dashboard": {
+    "subtitle": "MIA React Web Base",
+    "title": "Dashboard",
+    "description": "Proyecto base para las aplicaciones web de MIA.",
+    "health": {
+      "badge": "API",
+      "title": "API Health",
+      "description": "Verifica que el backend de la aplicación esté disponible y respondiendo correctamente.",
+      "action": "Verificar API"
+    },
+    "example": {
+      "badge": "Example",
+      "title": "Hello World",
+      "description": "Prueba un formulario completo que valida los datos y realiza una llamada al backend.",
+      "action": "Abrir Example"
+    },
+    "architecture": {
+      "title": "Arquitectura base",
+      "description": "Tecnologías y patrones utilizados en este proyecto."
+    }
+  },
+  "example": {
+    "subtitle": "Ejemplo funcional",
+    "title": "Hola Mundo",
+    "description": "Este ejemplo demuestra cómo conectar un formulario con una API.",
+    "name": "Nombre",
+    "namePlaceholder": "Escribe tu nombre",
+    "submit": "Decir hola",
+    "validation": {
+      "nameRequired": "El nombre es obligatorio",
+      "nameMaxLength": "El nombre no puede superar los 10 caracteres"
+    },
+    "success": "Respuesta de la API: {{message}}",
+    "error": "No fue posible completar la solicitud"
+  }
+}

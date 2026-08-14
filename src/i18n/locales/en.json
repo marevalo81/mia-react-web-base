@@ -1,0 +1,49 @@
+{
+  "common": {
+    "appName": "MIA React Web Base",
+    "home": "Home",
+    "example": "Example",
+    "logout": "Sign out",
+    "language": "Language",
+    "changeLanguage": "Change language to {{language}}"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "example": "Example"
+  },
+  "dashboard": {
+    "subtitle": "MIA React Web Base",
+    "title": "Dashboard",
+    "description": "Base project for MIA web applications.",
+    "health": {
+      "badge": "API",
+      "title": "API Health",
+      "description": "Check that the application backend is available and responding correctly.",
+      "action": "Check API"
+    },
+    "example": {
+      "badge": "Example",
+      "title": "Hello World",
+      "description": "Try a complete form that validates the data and calls the backend.",
+      "action": "Open Example"
+    },
+    "architecture": {
+      "title": "Base Architecture",
+      "description": "Technologies and patterns used in this project."
+    }
+  },
+  "example": {
+    "subtitle": "Functional example",
+    "title": "Hello World",
+    "description": "This example demonstrates how to connect a form to an API.",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "submit": "Say hello",
+    "validation": {
+      "nameRequired": "Name is required",
+      "nameMaxLength": "Name cannot exceed 100 characters"
+    },
+    "success": "API response: {{message}}",
+    "error": "The request could not be completed"
+  }
+}
